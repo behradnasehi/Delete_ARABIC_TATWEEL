@@ -19,9 +19,6 @@ BEGIN
     BEGIN
         SET @ch = LEFT(@S, 1);
 
-        --IF @ch <> NCHAR(1600)
-        --    SET @S_O = @S_O + @ch;
-
         SELECT @S_O = @S_O + CASE
                                  WHEN @ch = NCHAR(32) THEN @ch
 
