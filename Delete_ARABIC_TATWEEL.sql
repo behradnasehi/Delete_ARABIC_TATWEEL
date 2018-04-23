@@ -1,5 +1,5 @@
-/*
-select mis.Delete_ARABIC_TATWEEL(N'ÍÞíÞÊ  ÑÈÇäì')
+ï»¿/*
+select mis.Delete_ARABIC_TATWEEL(N'Ø­Ù‚ÙŠÙ‚Øª  Ø±Ø¨Ø§Ù†Ù‰')
 */
 IF OBJECT_ID('mis.Delete_ARABIC_TATWEEL') IS NOT NULL
     DROP FUNCTION mis.Delete_ARABIC_TATWEEL;
